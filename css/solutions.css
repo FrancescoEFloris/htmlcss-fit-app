@@ -20,3 +20,8 @@
     transition: box-shadow 0.3s ease;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
 }
+/* Evidenzia secondo piano allenamento */
+.workout-section .workout-plan:nth-child(3) {
+    background: #fff8ba;
+    box-shadow: inset  5px  0  0  0 #f39c12;
+}
