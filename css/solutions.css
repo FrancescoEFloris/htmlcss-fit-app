@@ -5,3 +5,13 @@
     text-align: center;
     display: block;
 }
+
+/* Sfondo alla terza sezione */
+.stats-container .stats-grid:last-child {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    
+}
+.stats-container .stats-grid:last-child * {
+    color: white;
+    
+}
