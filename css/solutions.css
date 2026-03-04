@@ -36,4 +36,7 @@ div.exercise-item:nth-child(2)::before, div.exercise-item:nth-child(4)::before {
     font-size: 10px;
     
 }
-/* Aggiunta di un'ombra al titolo della sezione */
+/* Aggiunta di un'ombra quando input e select sono in focus */
+select:focus, input:focus {
+    box-shadow: 0 2px 10px rgba(0, 17, 255);
+}
