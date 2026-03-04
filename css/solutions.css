@@ -15,3 +15,8 @@
     color: white;
     
 }
+/* Effetto 'ho(m)ver' sulle stat card */
+.stats-container > *:hover {
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
