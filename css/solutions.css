@@ -38,5 +38,14 @@ div.exercise-item:nth-child(2)::before, div.exercise-item:nth-child(4)::before {
 }
 /* Aggiunta di un'ombra quando input e select sono in focus */
 select:focus, input:focus {
-    box-shadow: 0 2px 10px rgba(0, 17, 255);
+    box-shadow: 0 2px 5px blue;
 }
+/* cambio colore e rilievo sul button per salvare */
+.save-btn:active {
+    background: #0000b6;
+    color: lightgray;
+    box-shadow: 0 2px 5px blue;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+/*  */
