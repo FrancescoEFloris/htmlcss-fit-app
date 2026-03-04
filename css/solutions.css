@@ -1,0 +1,7 @@
+/* Icona fuoco prima sezione */
+.stats-grid:first-child .stat-number::before {
+    content: "\1F525";
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
